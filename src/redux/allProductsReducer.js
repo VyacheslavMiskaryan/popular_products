@@ -5,11 +5,12 @@ const initialState = {
 };
 
 const allProductsReducer = (state = initialState, action) => {
+  const newAllProducts = JSON.parse(JSON.stringify(state.allProducts));
   switch (action.type) {
     case 'INCREASE_PRODUCT_RATING':
-      console.log(action);
+      newAllProducts[action.payload.itemIndex].votes += 1;
       return {
-        ...state,
+        allProducts: newAllProducts,
       };
     default:
       return state;

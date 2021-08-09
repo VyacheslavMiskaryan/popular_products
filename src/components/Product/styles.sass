@@ -1,0 +1,34 @@
+@import '../../colors'
+
+%flex-container
+    display: flex
+    flex-direction: column
+
+.grid-container
+    display: grid
+    grid-template-rows: 25px fit-content(100px) fit-content(50px)
+    grid-template-columns: 100px fit-content(700px)
+    grid-template-areas: "img votes" "img description" "img author"
+    row-gap: 5px
+
+.image-container
+    grid-area: img
+
+.votes-container
+    grid-area: votes
+    font-weight: bold
+
+.description-container
+    display: flex
+    flex-direction: column
+    grid-area: description
+
+    .title
+        color: $title-color
+        text-decoration: none
+
+.author-signature-container
+    display: flex
+    align-items: center
+    grid-area: author
+    color: $signature-color

@@ -1,0 +1,24 @@
+@import '../../colors'
+
+%flex-container
+    display: flex
+    flex-direction: column
+
+.main-container
+    @extend %flex-container
+    align-items: center
+
+.main-title
+    font-weight: bold
+    font-size: 30px
+
+.products-container
+    @extend %flex-container
+    gap: 15px
+
+.line
+    margin-top: -20px
+    margin-bottom: 20px
+    height: 2px
+    width: 100%
+    background-color: $signature-color

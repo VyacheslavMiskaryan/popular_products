@@ -3,16 +3,30 @@ import { useSelector } from 'react-redux';
 
 import Product from '../Product';
 
+import sortingRule from './utils';
+import './styles.sass';
+
 const MainContainer = () => {
   const { allProducts } = useSelector((state) => state.products);
-  console.log(allProducts);
+
   return (
-    <div>
-      <p>Popular Products</p>
-      <hr />
-      {allProducts.map((item) => (
-        <Product key={item.id} />
-      ))}
+    <div className="main-container">
+      <p className="main-title">Popular Products</p>
+      <div className="line" />
+      <div className="products-container">
+        {allProducts.sort(sortingRule('votes')).map((item, index) => (
+          <Product
+            key={item.id}
+            id={item.id}
+            title={item.title}
+            description={item.description}
+            votes={item.votes}
+            itemIndex={index}
+            submitterAvatarUrl={item.submitterAvatarUrl}
+            productImageUrl={item.productImageUrl}
+          />
+        ))}
+      </div>
     </div>
   );
 };

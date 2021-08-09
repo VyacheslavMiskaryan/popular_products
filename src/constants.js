@@ -5,8 +5,8 @@ const ALL_PRODUCTS = [
     description: 'High-minded or absent-minded? You decide',
     url: '#',
     votes: 55,
-    submitterAvatarUrl: 'author1',
-    productImageUrl: 'assets/images/image-yellow.png',
+    submitterAvatarUrl: 'assets/images/avatarImages/sarah.png',
+    productImageUrl: 'assets/images/productImages/image-yellow.png',
   },
   {
     id: 2,
@@ -14,8 +14,8 @@ const ALL_PRODUCTS = [
     description: 'On-demand sand castle construction expertise',
     url: '#',
     votes: 44,
-    submitterAvatarUrl: 'author2',
-    productImageUrl: 'assets/images/image-aqua.png',
+    submitterAvatarUrl: 'assets/images/avatarImages/daniel.png',
+    productImageUrl: 'assets/images/productImages/image-aqua.png',
   },
   {
     id: 3,
@@ -23,8 +23,8 @@ const ALL_PRODUCTS = [
     description: 'We already have your measurements and shipping address',
     url: '#',
     votes: 42,
-    submitterAvatarUrl: 'author3',
-    productImageUrl: 'assets/images/image-grey.png',
+    submitterAvatarUrl: 'assets/images/avatarImages/vincent.png',
+    productImageUrl: 'assets/images/productImages/image-gray.png',
   },
   {
     id: 4,
@@ -32,8 +32,8 @@ const ALL_PRODUCTS = [
     description: 'Earn points when your favorite politicians pass legislation',
     url: '#',
     votes: 23,
-    submitterAvatarUrl: 'author4',
-    productImageUrl: 'assets/images/image-red.png',
+    submitterAvatarUrl: 'assets/images/avatarImages/ernest.png',
+    productImageUrl: 'assets/images/productImages/image-red.png',
   },
 ];
 
