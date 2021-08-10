@@ -11,9 +11,9 @@ import styles from './styles';
 import './styles.sass';
 
 const Product = ({
-  id,
   title,
   description,
+  url,
   votes,
   submitterAvatarUrl,
   productImageUrl,
@@ -21,9 +21,10 @@ const Product = ({
 }) => {
   const dispatch = useDispatch();
   const classes = styles();
+
   const handleIncreaseRating = useCallback(() => {
-    dispatch(increaseProductRating({ id, itemIndex }));
-  }, [id, itemIndex]);
+    dispatch(increaseProductRating({ itemIndex }));
+  }, [itemIndex]);
 
   return (
     <div className="grid-container">
@@ -37,7 +38,7 @@ const Product = ({
         {votes}
       </div>
       <div className="description-container">
-        <Link to="/" className="title">
+        <Link to={`/${url}`} className="title">
           <span>{title}</span>
         </Link>
         <span>{description}</span>
@@ -52,9 +53,9 @@ const Product = ({
 };
 
 Product.propTypes = {
-  id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
   votes: PropTypes.number.isRequired,
   submitterAvatarUrl: PropTypes.string.isRequired,
   productImageUrl: PropTypes.string.isRequired,

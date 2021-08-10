@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContainer renders correctly 1`] = `
+<div
+  className="main-container"
+>
+  <p
+    className="main-title"
+  >
+    Popular Products
+  </p>
+  <div
+    className="line"
+  />
+  <div
+    className="products-container"
+  >
+    <div
+      className="grid-container"
+    >
+      <div
+        className="image-container"
+      >
+        <img
+          alt="productAvatar"
+          src="assets/images/productImages/image-yellow.png"
+        />
+      </div>
+      <div
+        className="votes-container"
+      >
+        <button
+          className="MuiButtonBase-root makeStyles-button-1"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 14l5-5 5 5z"
+            />
+          </svg>
+        </button>
+        55
+      </div>
+      <div
+        className="description-container"
+      >
+        <a
+          className="title"
+          href="/"
+          onClick={[Function]}
+        >
+          <span>
+            Haught or Naught
+          </span>
+        </a>
+        <span>
+          High-minded or absent-minded? You decide
+        </span>
+      </div>
+      <div
+        className="author-signature-container"
+      >
+        <span>
+          Submitted by:
+        </span>
+         
+        <img
+          alt="avatar"
+          src="assets/images/avatarImages/sarah.png"
+        />
+      </div>
+    </div>
+    <div
+      className="grid-container"
+    >
+      <div
+        className="image-container"
+      >
+        <img
+          alt="productAvatar"
+          src="assets/images/productImages/image-aqua.png"
+        />
+      </div>
+      <div
+        className="votes-container"
+      >
+        <button
+          className="MuiButtonBase-root makeStyles-button-1"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 14l5-5 5 5z"
+            />
+          </svg>
+        </button>
+        44
+      </div>
+      <div
+        className="description-container"
+      >
+        <a
+          className="title"
+          href="/"
+          onClick={[Function]}
+        >
+          <span>
+            Yellow Pail
+          </span>
+        </a>
+        <span>
+          On-demand sand castle construction expertise
+        </span>
+      </div>
+      <div
+        className="author-signature-container"
+      >
+        <span>
+          Submitted by:
+        </span>
+         
+        <img
+          alt="avatar"
+          src="assets/images/avatarImages/daniel.png"
+        />
+      </div>
+    </div>
+    <div
+      className="grid-container"
+    >
+      <div
+        className="image-container"
+      >
+        <img
+          alt="productAvatar"
+          src="assets/images/productImages/image-gray.png"
+        />
+      </div>
+      <div
+        className="votes-container"
+      >
+        <button
+          className="MuiButtonBase-root makeStyles-button-1"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 14l5-5 5 5z"
+            />
+          </svg>
+        </button>
+        42
+      </div>
+      <div
+        className="description-container"
+      >
+        <a
+          className="title"
+          href="/"
+          onClick={[Function]}
+        >
+          <span>
+            Tinfoild: Tailored tinfoil hats
+          </span>
+        </a>
+        <span>
+          We already have your measurements and shipping address
+        </span>
+      </div>
+      <div
+        className="author-signature-container"
+      >
+        <span>
+          Submitted by:
+        </span>
+         
+        <img
+          alt="avatar"
+          src="assets/images/avatarImages/vincent.png"
+        />
+      </div>
+    </div>
+    <div
+      className="grid-container"
+    >
+      <div
+        className="image-container"
+      >
+        <img
+          alt="productAvatar"
+          src="assets/images/productImages/image-red.png"
+        />
+      </div>
+      <div
+        className="votes-container"
+      >
+        <button
+          className="MuiButtonBase-root makeStyles-button-1"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 14l5-5 5 5z"
+            />
+          </svg>
+        </button>
+        23
+      </div>
+      <div
+        className="description-container"
+      >
+        <a
+          className="title"
+          href="/"
+          onClick={[Function]}
+        >
+          <span>
+            Supermajority: The Fantasy Congress League
+          </span>
+        </a>
+        <span>
+          Earn points when your favorite politicians pass legislation
+        </span>
+      </div>
+      <div
+        className="author-signature-container"
+      >
+        <span>
+          Submitted by:
+        </span>
+         
+        <img
+          alt="avatar"
+          src="assets/images/avatarImages/ernest.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

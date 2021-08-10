@@ -1,14 +1,9 @@
 @import '../../colors'
-
-%flex-container
-    display: flex
-    flex-direction: column
+@import '../../global'
 
 .grid-container
     display: grid
-    grid-template-rows: 25px fit-content(100px) fit-content(50px)
-    grid-template-columns: 100px fit-content(700px)
-    grid-template-areas: "img votes" "img description" "img author"
+    grid-template: "img votes" 25px "img description" fit-content(100px) "img author" fit-content(50px) / 100px fit-content(700px)
     row-gap: 5px
 
 .image-container
@@ -19,8 +14,7 @@
     font-weight: bold
 
 .description-container
-    display: flex
-    flex-direction: column
+    @extend %flex-container
     grid-area: description
 
     .title

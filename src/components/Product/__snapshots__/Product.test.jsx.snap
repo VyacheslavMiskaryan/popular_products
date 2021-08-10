@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products renders correctly 1`] = `
+<div
+  className="grid-container"
+>
+  <div
+    className="image-container"
+  >
+    <img
+      alt="productAvatar"
+      src="assets/images/productImages/image-aqua.png"
+    />
+  </div>
+  <div
+    className="votes-container"
+  >
+    <button
+      className="MuiButtonBase-root makeStyles-button-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 14l5-5 5 5z"
+        />
+      </svg>
+    </button>
+    44
+  </div>
+  <div
+    className="description-container"
+  >
+    <a
+      className="title"
+      href="//"
+      onClick={[Function]}
+    >
+      <span>
+        Yellow Pail
+      </span>
+    </a>
+    <span>
+      On-demand sand castle construction expertise
+    </span>
+  </div>
+  <div
+    className="author-signature-container"
+  >
+    <span>
+      Submitted by:
+    </span>
+     
+    <img
+      alt="avatar"
+      src="assets/images/avatarImages/daniel.png"
+    />
+  </div>
+</div>
+`;

@@ -17,9 +17,9 @@ const MainContainer = () => {
         {allProducts.sort(sortingRule('votes')).map((item, index) => (
           <Product
             key={item.id}
-            id={item.id}
             title={item.title}
             description={item.description}
+            url={item.url}
             votes={item.votes}
             itemIndex={index}
             submitterAvatarUrl={item.submitterAvatarUrl}
